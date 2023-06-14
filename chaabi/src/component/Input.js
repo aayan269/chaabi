@@ -5,7 +5,7 @@ import {
 export default function Input({handleSubmit,value,handleChange,wpm,accuracy}) {
   return (
     <Box  w="50%" h="100vh" >
-    <Box w={"80%"} h="50%" m="auto" mt={"25%"} boxShadow='base'rounded='md' bg='white' >
+    <Box w={"80%"} h="50%" m="auto" mt={"20%"} boxShadow='base'rounded='md'bgColor="teal.400" color="white" >
          <FormControl padding={10}>
             <FormLabel>Enter text here</FormLabel>
             <Textarea value={value} onChange={(e)=>handleChange(e.target.value)} placeholder="Start typing..." rows={4} cols={50} />

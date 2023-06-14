@@ -77,7 +77,8 @@ function App() {
     backgroundPosition="center"
     backgroundSize="cover"
     backgroundRepeat="no-repeat">
-      <Flex>
+      <h1 style={{textAlign:"center",fontSize:'35px'}}>Welcom to Our Application</h1>
+      <Flex   >
         <Sentence Mysentence={Mysentence} nextCharacters={nextCharacters} />
         <Input handleSubmit={handleSubmit} value={input} handleChange={handleChange} wpm={wpm} accuracy={accuracy} />
       </Flex>
